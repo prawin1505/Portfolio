@@ -63,7 +63,7 @@ const SITE = {
   projects: [
     { title: "SkillBridge", category: "fullstack",
       summary: "A full-stack platform that connects people by the skills they can teach and the skills they want to learn, with matching, authentication, connections and real-time chat.",
-      tech: ["Java","Spring Boot","React.js","PostgreSQL","JWT","WebSocket","REST APIs"], github: "https://github.com/prawin1505/SkillBridge", demo: "https://skill-bridge-liart-one.vercel.app/", features: ["Skill matching between teachers and learners","User authentication with JWT","Connections between users","Real-time communication with WebSocket"] },
+      tech: ["Java","Spring Boot","React.js","PostgreSQL","JWT","WebSocket","REST APIs"], github: "https://github.com/prawin1505/SkillBridge", demo: "https://skill-bridge-dun-three.vercel.app/", features: ["Skill matching between teachers and learners","User authentication with JWT","Connections between users","Real-time communication with WebSocket"] },
     { title: "Chatbot", category: "artificial intelligence",
       summary: "The chatbot is a web application that uses natural language processing to understand user queries and provide relevant responses. ",
       tech: ["Artificial Intelligence","Machine Learning","data preprocessing","Python"], github: "https://github.com/prawin1505/Air-quality-Major-project", demo: "", features: ["Digital question paper generation workflow","Organised question paper creation"] },
