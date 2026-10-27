@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+  <title>Contact | PRAWINKUMAR S N </title>
+  <script>try{document.documentElement.dataset.theme=localStorage.getItem("theme")||"dark"}catch(e){}</script>
+  <link rel="stylesheet" href="style.css">
+  <script src="config.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body data-page="contact">
+  <div id="site-header"></div>
+  <main>
+    <section class="section page-hero"><div class="container split">
+      <div>
+        <h1>Let's talk.</h1><p>Open to internships and placement opportunities. Send a message, or use the links below.</p>
+        <div class="socials" id="contactSocials"></div>
+        <p class="muted" id="contactEmail"></p>
+        <a class="btn primary" id="resumeBtn" href="RESUME(PRAWINKUMAR S N).pdf" download="Prawin_Kumar_Resume.pdf">Download Resume</a>
+      </div>
+      <form class="card" id="contactForm" novalidate>
+        <label for="cName">Name</label><input id="cName" name="name" autocomplete="name" required>
+        <small class="err" id="eName"></small>
+        <label for="cEmail">Email</label><input id="cEmail" name="email" type="email" autocomplete="email" required>
+        <small class="err" id="eEmail"></small>
+        <label for="cPhoneNo">Phone Number</label><input id="cPhoneNo" name="phone" type="tel" autocomplete="tel" required>
+        <small class="err" id="ePhoneNo"></small>
+        <label for="cMsg">Message</label><textarea id="cMsg" name="message" rows="5" required></textarea>
+        <small class="err" id="eMsg"></small>
+        <button class="btn primary" type="submit">Send message</button>
+        <p class="status" id="formStatus" role="status"></p>
+      </form>
+    </div></section>
+  </main>
+  <footer id="site-footer"></footer>
+</body>
+</html>

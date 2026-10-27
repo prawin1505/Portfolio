@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+  <title>Projects | PRAWINKUMAR S N </title>
+  <script>try{document.documentElement.dataset.theme=localStorage.getItem("theme")||"dark"}catch(e){}</script>
+  <link rel="stylesheet" href="style.css">
+  <script src="config.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body data-page="projects">
+  <div id="site-header"></div>
+  <main>
+    <section class="section page-hero"><div class="container">
+      <h1>Projects</h1><p>Filter by type, then open a project for details.</p>
+      <div class="filters" id="filters" role="group" aria-label="Filter projects">
+        <button class="chip active" data-f="all">All</button><button class="chip" data-f="fullstack">Full Stack</button>
+        <button class="chip" data-f="frontend">Frontend</button><button class="chip" data-f="other">Other Projects</button>
+      </div>
+      <div class="cards" id="projectGrid"></div>
+      <p class="muted" id="emptyMsg" hidden>No projects in this category yet.</p>
+    </div></section>
+    <dialog class="modal" id="modal" aria-labelledby="mTitle">
+      <button class="icon-btn close" id="mClose" aria-label="Close details">✕</button>
+      <h2 id="mTitle"></h2><p id="mOverview"></p>
+      <h3>Features</h3><ul id="mFeatures"></ul>
+      <h3>Technology stack</h3><div class="tags" id="mTech"></div>
+      <div class="cta" id="mLinks"></div>
+    </dialog>
+  </main>
+  <footer id="site-footer"></footer>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PRAWINKUMAR S N | Aspiring Full Stack Developer</title>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+  <meta name="description" content="Portfolio of PRAWINKUMAR S N, a Computer Science and Engineering student building full-stack web applications.">
+  <!-- Apply saved theme before paint so there is no flash between pages -->
+  <script>try{document.documentElement.dataset.theme=localStorage.getItem("theme")||"dark"}catch(e){}</script>
+  <link rel="stylesheet" href="style.css">
+  <script src="config.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="container hero-grid">
+        <div>
+          <p class="badge" id="availability"><span class="dot"></span><span id="availText"></span></p>
+          <p class="name">Hi, I'm PRAWINKUMAR S N</p>
+          <h1 id="heroTitle">Building Digital Experiences <span class="grad-text">That Matter.</span></h1>
+          <p class="role-line"><span id="roleText"></span></p>
+          <p>I'm a Computer Science and Engineering student who enjoys full-stack development, solving problems, and building software that people find useful.</p>
+          <div class="cta">
+            <a class="btn primary" href="projects.html">Explore My Work</a>
+            <a class="btn" id="resumeBtn" href="RESUME(PRAWINKUMAR S N).pdf" download="Prawin_Kumar_Resume.pdf">Download Resume</a>
+          </div>
+          <div class="socials" id="heroSocials"></div>
+        </div>
+
+        <!-- Pure-CSS developer graphic: floating orbs + a tilting code card -->
+        <div class="hero-art" aria-hidden="true">
+          <span class="orb a"></span><span class="orb b"></span>
+          <div class="code-card" id="codeCard">
+            <div class="bar"><i></i><i></i><i></i></div>
+<pre><span class="k">const</span> developer = {
+  name: <span class="s">"PRAWINKUMAR S N"</span>,
+  stack: [<span class="s">"Java"</span>, <span class="s">"Spring Boot"</span>,
+          <span class="s">"React"</span>, <span class="s">"Node"</span>],
+  learning: <span class="s">"always"</span>
+};
+
+developer.<span class="f">build</span>(<span class="s">"something useful"</span>);</pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS MARQUEE (filled from config.js) -->
+    <div class="marquee" id="marquee" aria-label="Technologies I work with"></div>
+
+    <!-- ABOUT TEASER -->
+    <section class="section">
+      <div class="container split">
+        <div class="reveal">
+          <h2>Learning by building real projects</h2>
+          <p>I'm studying B.E. Computer Science and Engineering at Mahendra College of Engineering, Salem (Anna University, graduating 2027). I like turning ideas into working web applications and picking up new technologies along the way.</p>
+          <a class="btn primary" href="about.html">More about me</a>
+        </div>
+        <div class="stats reveal" id="stats"></div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECTS (filled from config.js) -->
+    <section class="section">
+      <div class="container">
+        <h2 class="reveal">Featured projects</h2>
+        <p class="reveal">A few things I've built.</p>
+        <div class="cards" id="featured"></div>
+      </div>
+    </section>
+
+    <!-- CONTACT BAND -->
+    <section class="section">
+      <div class="container cta-band reveal">
+        <h2>Looking for an intern or junior developer?</h2>
+        <p>I'd be glad to hear about internship and placement opportunities.</p>
+        <a class="btn" href="contact.html">Get in touch</a>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+</body>
+</html>
