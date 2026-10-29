@@ -1,9 +1,8 @@
-/* modern.js — extra interactivity + professional photo. Loaded after script.js */
 "use strict";
 (function () {
   const $ = (s, r = document) => r.querySelector(s), $$ = (s, r = document) => [...r.querySelectorAll(s)];
   const rm = matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const PHOTO = "assets/images/profile.jpg";   // <-- put your photo here (jpg/png)
+  const PHOTO = "assets/images/profile.jpeg";   // <-- put your photo here (jpg/png)
 
   /* ---- Professional photo (modern morphing frame, 3D tilt, click to preview another) ---- */
   function buildPhoto(slot, chips) {
