@@ -69,7 +69,7 @@ const SITE = {
       tech: ["Artificial Intelligence","Machine Learning","data preprocessing","Python"], github: "https://github.com/prawin1505/Air-quality-Major-project", demo: "", features: ["Digital question paper generation workflow","Organised question paper creation"] },
     { title: "Developer Portfolio", category: "frontend",
       summary: "A responsive personal portfolio showing technical skills, projects, education and contact details.",
-      tech: ["HTML5","CSS3","JavaScript","Responsive Design"], github: "https://github.com/prawin1505/Portfolio", demo: "https://portfolio-sable-phi-20.vercel.app/", features: ["Responsive layout","Sections for skills, projects, education and contact"] },
+      tech: ["HTML5","CSS3","JavaScript","Responsive Design"], github: "https://github.com/prawin1505/Portfolio", demo: "https://prawinkumarsn-portfolio.vercel.app/", features: ["Responsive layout","Sections for skills, projects, education and contact"] },
     { title: "CRT Project", category: "Artificial Intelligence",
       summary: "A CRT project is a web application that uses natural language processing to understand user click the advertisement.",
       tech: ["Artificial Intelligence","Machine Learning","data preprocessing","Python"], github: "https://github.com/prawin1505/CRT-Minor-project-", demo: "", features: ["Responsive layout","Sections for skills, projects, education and contact"] }
