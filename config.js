@@ -2,7 +2,7 @@
 const SITE = {
   name: "PRAWINKUMAR S N",
   initials: "PK",
-  role: "Aspiring Full Stack Developer",
+  role: "Java FullStack Developer",
 
   // ---- Your links----
   email: "prawinkumarsn05@gmail.com",     
